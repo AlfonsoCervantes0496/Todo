@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+
+}
+.headerB{
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position: fixed;
+
+}
+.headerB h1{
+   
+    color: white;
+}
+.headerB ul{
+    display: flex;
+}
+
+.headerB ul li{
+    margin: 1rem;
+
+}
+.headerB ul li button{
+    background-color: transparent;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    border-style:ridge;
+    border-width:  2px;
+}
+.headerB ul li button:hover{
+background-color: white;
+color: black;
+}
+/*blo que de estilo w*/
+
+*{
+    margin: 0;
+
+}
+.headerw{
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position: fixed;
+
+}
+.headerw h1{
+   
+    color: black;
+}
+.headerw ul{
+    display: flex;
+}
+
+.headerw ul li{
+    margin: 1rem;
+    list-style: none;
+
+}
+.headerw ul li button{
+    background-color: transparent;
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    border-style:ridge;
+    border-width:  2px;
+    
+}
+.headerw ul li button:hover{
+background-color: black;
+color: white;
+}
+.headerw button{
+    background-color: transparent;
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    border-style:ridge;
+    border-width:  2px;
+    height: 3rem;
+
+
+}
+.headerB button{
+    background-color: transparent;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    border-style:ridge;
+    border-width:  2px;
+    height: 3rem;
+
+
+}
+
+
+
+@media(max-width:780px){
+
+.headerB{
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.headerB h1{
+   
+    color: white;
+}
+.headerB ul{
+    display: flex;
+    width: 100%;
+    
+}
+
+.headerB ul li{
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 30%;
+
+}
+.headerB ul li button{
+    background-color: transparent;
+    color: white;
+    padding: 0;
+    border-radius: 10px;
+    border-style:ridge;
+    border-width:  1px;
+    width: 80%;
+    margin: 5%;
+}
+.headerB ul li button:hover{
+background-color: white;
+color: black;
+}
+
+
+/*blo que de estilo w*/
+
+*{
+    margin: 0;
+
+}
+.headerw{
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.headerw h1{
+   
+    color: black;
+}
+.headerw ul{
+    display: flex;
+    width: 100%;
+}
+
+.headerw ul li{
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 30%;
+    
+
+}
+.headerw ul li button{
+    background-color: transparent;
+    color: black;
+    padding: 0;
+    border-radius: 10px;
+    border-style:ridge;
+    border-width:  1px;
+    width: 80%;
+    margin: 5%;
+}
+.headerw ul li button:hover{
+background-color: black;
+color: white;
+}
+.headerw button{
+    background-color: transparent;
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    border-style:ridge;
+    border-width:  2px;
+    height: 3rem;
+
+
+}
+.headerB button{
+    background-color: transparent;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    border-style:ridge;
+    border-width:  2px;
+    height: 3rem;
+
+
+}
+
+
+
+    
+}

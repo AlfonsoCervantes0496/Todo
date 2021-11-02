@@ -1,0 +1,115 @@
+.DivB{
+    background-color: white;
+    width: 20%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    margin:1rem;
+    
+}
+.DivB h3{
+    text-align: center;
+}
+.DivB button{
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    padding: 1rem;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.DivW{
+    background-color: black;
+    width: 20%;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    margin:1rem;
+
+}
+.DivW h3{
+    text-align: center;
+    color: white;
+}
+.DivW button{
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    padding: 1rem;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+img{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+@media(max-width:780px){
+
+    .DivB{
+        background-color: white;
+        width: 80%;
+        border-style: solid;
+        border-color: black;
+        border-radius: 15px;
+        margin:1rem;
+        
+    }
+    .DivB h3{
+        text-align: center;
+    }
+    .DivB button{
+        text-align: center;
+        background-color: transparent;
+        color: black;
+        padding: 1rem;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        border-radius: 10px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .DivW{
+        background-color: black;
+        width: 80%;
+        border-style: solid;
+        border-color: white;
+        border-radius: 15px;
+        margin:1rem;
+    
+    }
+    .DivW h3{
+        text-align: center;
+        color: white;
+    }
+    .DivW button{
+        text-align: center;
+        background-color: transparent;
+        color: white;
+        padding: 1rem;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        border-radius: 10px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+
+
+
+
+
+}
