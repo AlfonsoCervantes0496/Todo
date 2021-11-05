@@ -1,4 +1,3 @@
-import react from "react";
 //importacion de CSS
 import '../stiles/Header.css'
 

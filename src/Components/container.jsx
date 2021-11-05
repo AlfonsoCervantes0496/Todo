@@ -1,4 +1,4 @@
-import react from "react";
+
 import logo from '../elements/logo.jpg'
 import '../stiles/container.css'
 

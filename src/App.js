@@ -1,4 +1,4 @@
-import react, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 // importacion de compnentes
 import Header from "./Components/Header";
 import Container from "./Components/container";
