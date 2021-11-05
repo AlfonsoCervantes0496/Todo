@@ -1,7 +1,6 @@
 import react, { useEffect, useState } from "react";
 // importacion de compnentes
 import Header from "./Components/Header";
-import { Component } from "react";
 import Container from "./Components/container";
 import './App.css'
 
@@ -11,7 +10,7 @@ function App() {
 const [data,SetData]=useState([])
 const[DarkMode,SetDarkmode]=useState(false)
 
-const[mostrar,SetMostrar]=useState("all")
+
 const[all,setAll]=useState([])
 
 
@@ -21,7 +20,6 @@ useEffect(()=>{
 const response = await fetch("https://jsonplaceholder.typicode.com/todos")
 const result =await response.json();
 console.log(result)
-
 setAll(result.slice(0,20))
   SetData(result.slice(0,20))
 
